@@ -5,7 +5,7 @@
   "main": "src/HackerNews.elm",
   "scripts": {
     "build": "mkdir build; cp src/index.html build/index.html; elm make ./src/HackerNews.elm --output build/HackerNews.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
