@@ -40,7 +40,7 @@ view model =
     div [] [
         Html.input [ type' "text", placeholder "Name Here", onInput Name] [],
         Html.input [ type' "password", placeholder "password", onInput Password ] [],
-        Html.input [ type' "password", placeholder "password again", onInput PasswordAgain ] [],
+        Html.input [ type' "password", placeholder "password again again", onInput PasswordAgain ] [],
         viewValidation model
     ]
 
@@ -48,7 +48,7 @@ viewValidation: Model -> Html Action
 viewValidation model =
     let (color, message) =
         if model.password == model.passwordAgain then
-            ("green", "OK")
+            ("yellow", "OK")
         else
             ("red", "Password do not match!")
     in
