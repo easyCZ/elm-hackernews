@@ -15,7 +15,7 @@
     "sublime-build": {
         "output": {
             "components": {
-                "dir": "build",
+                "dir": "dist",
                 "ext": "js"
             }
         }

@@ -6,4 +6,4 @@ deployment:
   production:
     branch: master
     commands:
-      - ./gh-pages-deploy.sh
+      - ./deploy.sh

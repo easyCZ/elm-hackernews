@@ -4,7 +4,7 @@
   "description": "A HackerNews reader written in Elm",
   "main": "src/HackerNews.elm",
   "scripts": {
-    "build": "mkdir build; cp src/index.html build/index.html; elm package install -y; elm make ./src/HackerNews.elm --output build/HackerNews.js",
+    "build": "mkdir dist; cp src/index.html dist/index.html; elm package install -y; elm make ./src/HackerNews.elm --output dist/HackerNews.js",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
