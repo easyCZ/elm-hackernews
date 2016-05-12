@@ -15,11 +15,10 @@ echo "Started deploying"
 git config user.name "$USER_NAME"
 git config user.email "$USER_EMAIL"
 
-git add -fA
-# git commit --allow-empty -m "$(git log -1 --pretty=%B) [CI]"
-git subtree push --prefix build $ORIGIN_URL gh-pages
-
-git checkout -
+# http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html
+git subtree split --prefix output -b gh-pages
+git push -f origin gh-pages:gh-pages
+git branch -D gh-pages
 
 echo "Deployed"
 
