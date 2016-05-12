@@ -9,7 +9,7 @@ ORIGIN_URL=`git config --get remote.origin.url`
 echo "Started deploying"
 
 # Build
-
+npm run build
 
 # Push to gh-pages
 git config user.name "$USER_NAME"
