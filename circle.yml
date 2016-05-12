@@ -7,4 +7,6 @@ deployment:
     branch: master
     commands:
       - npm run build
+      - git config user.name "$USER_NAME"
+      - git config user.email "$USER_EMAIL"
       - ./deploy.sh
