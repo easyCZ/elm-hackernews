@@ -38,7 +38,7 @@ update action model =
 view: Model -> Html Action
 view model =
     div [] [
-        Html.input [ type' "text", placeholder "Name Here", onInput Name] [],
+        Html.input [ type' "text", placeholder "Name Here 2", onInput Name] [],
         Html.input [ type' "password", placeholder "password", onInput Password ] [],
         Html.input [ type' "password", placeholder "password again again", onInput PasswordAgain ] [],
         viewValidation model
