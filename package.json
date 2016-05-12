@@ -1,0 +1,22 @@
+{
+  "name": "elm-hackernews",
+  "version": "1.0.0",
+  "description": "A HackerNews reader written in Elm",
+  "main": "src/HackerNews.elm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyCZ/elm-hackernews.git"
+  },
+  "author": "easyCZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easyCZ/elm-hackernews/issues"
+  },
+  "homepage": "https://github.com/easyCZ/elm-hackernews#readme",
+  "devDependencies": {
+    "elm": "^0.17.0"
+  }
+}
